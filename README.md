@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/groneveld/lab5.svg?branch=master)](https://travis-ci.org/groneveld/lab5)
+[![Build Status](https://travis-ci.org/PonybearInc/Disc.svg?branch=feature)](https://travis-ci.org/PonybearInc/Disc)
