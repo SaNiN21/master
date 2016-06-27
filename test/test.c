@@ -4,7 +4,7 @@
 
 CTEST(test_suite, NO_ROOTS)
 {
-	const double a = 4;
+	const double a = 6;
 	const double b = 0;
 	const double c = 3;
 	double x1, x2;
