@@ -4,13 +4,13 @@
 
 CTEST(test_suite, NO_ROOTS)
 {
-	const double a = 46;
+	const double a = 4;
 	const double b = 0;
 	const double c = 23;
-	const int e = 0.23
+	
 	double x1, x2;
 
-	short test = solve(a, b, c, e, &x1, &x2);
+	short test = solve(a, b, c, &x1, &x2);
 
 	short expected_root_number = 0;
 
@@ -19,13 +19,13 @@ CTEST(test_suite, NO_ROOTS)
 
 CTEST(test_suite, ONE_ROOTS)
 {
-	const double a = 1;
-	const double b = -2;
-	const double c = 1;
+	const double a = 2;
+	const double b = -4;
+	const double c = 0;
 	double x1, x2;
 
 	short test = solve(a, b, c, &x1, &x2);
-	double expected_x1 = 1.00;
+	double expected_x1 = 0.10;
 
 	short expected_root_number = 1;
 
