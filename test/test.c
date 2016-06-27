@@ -4,10 +4,9 @@
 
 CTEST(test_suite, NO_ROOTS)
 {
-	const double a = 46;
+	const double a = 4;
 	const double b = 0;
 	const double c = 23;
-	const int e = 0.23
 	double x1, x2;
 
 	short test = solve(a, b, c, e, &x1, &x2);
