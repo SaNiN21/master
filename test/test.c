@@ -20,7 +20,7 @@ CTEST(test_suite, NO_ROOTS)
 CTEST(test_suite, ONE_ROOTS)
 {
 	const double a = 2;
-	const double b = -4;
+	const double b = 4;
 	const double c = 0;
 	double x1, x2;
 
