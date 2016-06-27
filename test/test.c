@@ -25,7 +25,7 @@ CTEST(test_suite, ONE_ROOTS)
 	double x1, x2;
 
 	short test = solve(a, b, c, &x1, &x2);
-	double expected_x1 = 0.10;
+	double expected_x1 = 1.00;
 
 	short expected_root_number = 1;
 
