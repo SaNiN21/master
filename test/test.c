@@ -4,12 +4,13 @@
 
 CTEST(test_suite, NO_ROOTS)
 {
-	const double a = 6;
+	const double a = 46;
 	const double b = 0;
-	const double c = 3;
+	const double c = 23;
+	const int e = 0.23
 	double x1, x2;
 
-	short test = solve(a, b, c, &x1, &x2);
+	short test = solve(a, b, c, e, &x1, &x2);
 
 	short expected_root_number = 0;
 
